@@ -1,0 +1,253 @@
+/* GENERAL */
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing:border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #808080;
+  font-size: 16px;
+}
+
+
+/* UTILITIES */
+
+/* Layout */
+
+.container {
+  width: 75%;
+  margin: 0 auto;
+}
+
+.clearfix::after {
+  content:'';
+  display:table;
+  clear:both;
+}
+
+.float-left {
+  float:left;
+}
+.text-center {
+  text-align: center;
+}
+
+.w-50 {
+  width: 50%;
+}
+
+.col-3 {
+  float: left;
+  width: calc(100% / 3);
+  padding: 0 20px;
+}
+
+/* Menu */
+
+.menu-inline li {
+  display: inline-block;
+  padding: 0 10px;
+}
+
+.menu-inline li:first-child {
+  padding-left: 0;
+}
+
+.menu-inline li:last-child {
+  padding-right: 0;
+}
+
+/* Typography */
+
+h1,
+h2,
+h3 {
+  font-weight: 500;
+}
+
+h2 {
+  margin-bottom: 15px;
+  font-size: 28px;
+  color: #000;
+}
+
+li {
+  list-style: none;
+}
+
+p {
+  line-height: 1.5;
+  font-size: 19px;
+}
+
+h2.big {
+  font-size: 36px;
+  line-height: 55px;
+}
+
+/* Buttons */
+
+.btn {
+  border-radius: 5px;
+  border: 1px #fff solid;
+  padding: 5px 10px;
+  min-width: 100px;
+  display: inline-block;
+  text-align: center;
+  line-height: 23px;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.btn:hover {
+  background: #7cbb02;
+  border: none;
+}
+
+.btn-green {
+  background: #7cbb02;
+  border: none;
+}
+
+.btn-large {
+  padding: 20px;
+}
+
+/* HEADER */
+
+.main-header {
+  background: #0c325a;
+  height: 560px;
+  background-image: url('../img/background-header.png');
+  background-repeat: no-repeat;
+  background-size: 1000px;
+  background-position: bottom right;
+}
+
+.header-nav {
+  line-height: 80px;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+.header-logo img {
+  vertical-align: middle;
+}
+
+.header-nav li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.header-logo {
+  width: 15%;
+}
+
+.header-nav-center {
+  width:45%;
+}
+
+.header-nav-right {
+  text-align: right;
+  width:40%;
+}
+
+/* Jumbotron */
+
+.jumbotron {
+  position: relative;
+  height: 480px;
+}
+
+.jumbotron-text {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+
+.jumbotron-text h1 {
+  margin-bottom:30px;
+  font-size: 56px;
+  color: #fff;
+}
+
+/* MAIN */
+
+.main {
+  background: #fff;
+}
+
+/* Efficiency */
+
+.efficiency {
+  background: #d3d3d3;
+  padding: 40px 15px;
+}
+
+.efficiency p {
+  font-size: 20px;
+}
+
+/* Info */
+
+.info {
+  padding: 40px 15px;
+  border-bottom: 1px solid lightgray;
+}
+
+.info img {
+  height: 150px;
+}
+
+.info h3 {
+  color: #7cbb02;
+  font-size:30px;
+}
+
+.info h3::after {
+  content:'';
+  display: block;
+  width:60px;
+  height: 1px;
+  background: #b3b3b3;
+  margin:20px auto;
+}
+
+/* Plan */
+
+.plan .column {
+  padding:50px;
+}
+
+.plan p {
+  margin-bottom: 20px;
+}
+
+.plan a {
+  color: #5586bc;
+}
+
+/* FOOTER */
+
+/* Help Fixed */
+
+.help {
+  position:fixed;
+  bottom: 0;
+  right: 15%;
+}
+
+.help a {
+  display:inline-block;
+  padding: 10px;
+  color:#fff;
+  background: #7cbb02;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-radius: 5px 5px 0 0;
+}
