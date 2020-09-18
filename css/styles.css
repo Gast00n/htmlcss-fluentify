@@ -100,8 +100,8 @@ h2.big {
   height: 1px;
   background: #b3b3b3;
   position: absolute;
-  bottom: 20px;
-  left: 261px;
+  bottom: 0px;
+  left: 0px;
 }
 
 /* Buttons */
@@ -284,6 +284,6 @@ footer {
   margin-right: 30px;
 }
 
-.right-foot-col p {
+.right-foot-col p span {
   position:relative;
 }
