@@ -104,6 +104,10 @@ h2.big {
   left: 0px;
 }
 
+.underline:hover {
+  cursor: pointer;
+}
+
 /* Buttons */
 
 .btn {
